@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIY Robotics Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DIY Robotics Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to Your DIY Robotics Destination</h2>
+        <p>Explore our range of DIY projects for robots, cars, mini helicopters, and boats!</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://i.ytimg.com/vi/aDsvusM6qMo/maxresdefault.jpg" alt="DIY Robot">
+                <h3>ProjectBot 3000</h3>
+                <p>Build your own advanced robot with our comprehensive kits and guides.</p>
+            </div>
+            <div class="product">
+                <img src="https://images.app.goo.gl/DaXeqbuCyAcVnRYMA" alt="DIY Car">
+                <h3>Speedster Racer</h3>
+                <p>Assemble and customize your own high-speed electronic car.</p>
+            </div>
+            <div class="product">
+                <img src="https://images.app.goo.gl/LFTs37EWhFM9F8R36" alt="DIY Mini Helicopter">
+                <h3>SkyFly Mini Copter</h3>
+                <p>Perfect for project enthusiasts and hobbyists who want a mini helicopter.</p>
+            </div>
+            <div class="product">
+                <img src="https://images.app.goo.gl/gQVsYLL9ijVE1Wns5" alt="DIY Boat">
+                <h3>AquaJet DIY Boat</h3>
+                <p>Construct your own electric boat for various water projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide high-quality DIY kits for hobbyists and enthusiasts who love building and learning about electronics. Our products are designed to be both fun and educational.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="send_email.php" method="post">
+        <label for="contact">Contact:</label>
+        <input type="text" id="contact" name="contact" required>
+        <br><br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DIY Robotics Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
